@@ -1,0 +1,31 @@
+{
+  "name": "physical-ai-robotics-chatbot",
+  "version": "1.0.0",
+  "description": "Phase-1 Integrated RAG Chatbot for Physical AI & Humanoid Robotics Book",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd my-website && npm run start",
+    "build": "cd my-website && npm run build",
+    "serve": "cd my-website && npm run serve",
+    "backend": "cd backend && python -m uvicorn main:app --host 0.0.0.0 --port 8000",
+    "backend-reload": "cd backend && python -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload",
+    "setup-backend": "cd backend && pip install -r requirements.txt",
+    "populate-db": "cd backend && python populate_db.py",
+    "test-backend": "cd backend && python test_chatbot.py"
+  },
+  "keywords": [
+    "chatbot",
+    "RAG",
+    "AI",
+    "robotics",
+    "docusaurus",
+    "qdrant",
+    "openai"
+  ],
+  "author": "Hackathon Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.1.0",
+    "@docusaurus/types": "^3.1.0"
+  }
+}
