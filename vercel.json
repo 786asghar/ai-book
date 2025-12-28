@@ -5,7 +5,7 @@
       "src": "my-website/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build",
+        "distDir": "my-website/build",
         "rootDir": "my-website",
         "buildCommand": "npm install && npm run build"
       }
