@@ -22,6 +22,7 @@ const sidebars: SidebarsConfig = {
     'module-4-vla',
     'hardware',
     'tools',
+    'speed-insights',
     'roadmap',
     'capstone'
   ],
