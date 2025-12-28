@@ -2,10 +2,11 @@
   "version": 2,
   "builds": [
     {
-      "src": "package.json",
+      "src": "my-website/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "my-website/build",
+        "distDir": "build",
+        "rootDir": "my-website",
         "buildCommand": "npm install && npm run build"
       }
     }
